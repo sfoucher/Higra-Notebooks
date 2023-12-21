@@ -3,7 +3,6 @@
   "hostRequirements": {
     "cpus": 4
   },
-  "updateContentCommand": "conda install -y nb_conda nbconvert jupyter_client imageio matplotlib scipy scikit-learn scikit-image ipywidgets astropy",
   "waitFor": "onCreateCommand",
   "features": {
         "ghcr.io/devcontainers/features/conda:1": {},
